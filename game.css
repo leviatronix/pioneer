@@ -1,0 +1,35 @@
+#header {
+	text-align: center;
+	font-size: 42pt;
+}
+
+#score-container{
+	text-align: center;
+	font-size: 20pt;	
+}
+
+#game {
+	font-family: monospace;
+	font-size: 20pt;
+	padding: 12px;
+	text-align: center;
+}
+
+#buttons {
+	position: fixed;
+}	
+input.continue-button, input.back-button {
+    font-size: 20pt;
+    font-family: monospace;
+    background-color: #eee;
+    border-radius: 0px;
+	margin-top: 3px;
+}
+
+.noselect{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

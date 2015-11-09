@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>
+		Pioneer
+		</title>
+		
+		<!-- add jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		
+		<link rel="stylesheet" href="game.css">
+	</head>
+	<body>
+		<div style="display:none">
+			<img src="asteroid.png">
+			<img src="blank.png">
+			<img src="cursor.png">
+			<img src="planet.png">
+			<img src="ship.png">
+			<img src="unknown.png">
+		</div>
+		
+		<script src="game.js"></script>
+		<script src="keys.js"></script>
+		<h1 id="header">
+			<i>Pioneer</i>
+		</h1>
+		<div id="score-container">
+			<b>Score: </b>
+			<span id=score>0</span>
+		</div>
+		<div id="game">
+			<br>
+		</div>
+		<br>
+		<!-- buttons that suck
+		<div id="buttons">
+			<input type="button" value="^" onclick="up();"><br>
+			<input type="button" value="v" onclick="down();"><br>
+			<input type="button" value=">" onclick="right();"><br>
+			<input type="button" value="<" onclick="left();">
+		</div>
+		-->
+		
+		<!-- start the game -->
+		<script>init()</script>
+	</body>
+</html>
